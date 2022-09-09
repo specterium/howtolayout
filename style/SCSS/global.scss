@@ -245,3 +245,10 @@ img {
     margin: 0;
   }
 }
+
+.nicht-hover {
+  opacity: .55 !important;
+  @media screen and (min-width: utils.$bp-tablet) {
+    filter: blur(10px);
+  }
+}
