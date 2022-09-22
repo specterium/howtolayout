@@ -105,7 +105,7 @@
     <section>
         <div class="artikel-head">
             <div class="artikel-mainimage">
-                <img src="https://loremflickr.com/640/360">
+                <img src="https://loremflickr.com/640/360" alt="hier sollte ein bild sein">
             </div>
             <div class="artikel-maintext">
                 <h1 class="artikel-name">magst du bratwurst?</h1>

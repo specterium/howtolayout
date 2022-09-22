@@ -107,13 +107,16 @@
                 <img src="https://loremflickr.com/640/360">
             </div>
             <div class="artikel-maintext">
-                <h1 class="artikel-name">geile artikel überschrift</h1>
+                <div class="article-heading">
+                    <h1 class="artikel-name">geile artikel überschrift</h1>
+                    <p>420,69</p>
+                </div>
                 <p class="artikel-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem earum
                     maxime molestias necessitatibus nostrum, porro ratione recusandae tempora voluptas!</p>
-                <div class="artikel-actions">
-                    <p>420,69</p>
+                <div class="article-actions">
                     <a class="button">Haben Will!</a>
                 </div>
+                <a class="button-tertiary">Andere Optionen</a>
             </div>
         </div>
 
