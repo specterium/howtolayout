@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>dies ist 1 layout für 1 weebshobp</title>
+    <link rel="stylesheet" href="node_modules/untoasted/css/minified/toasted.min.css">
     <link rel="stylesheet" href="style/CSS/global.min.css">
     <link rel="stylesheet" href="style/CSS/nav-bar.min.css">
     <link rel="stylesheet" href="style/CSS/artikel-anzeigen.min.css">
@@ -16,6 +17,8 @@
     <script src="JS/nav-bar.js"></script>
     <script src="JS/home.js"></script>
     <script src="JS/artikel-anzeigen.js"></script>
+    <script src="node_modules/untoasted/js/minified/toasted.min.js"></script>
+    <script src="JS/cart.js"></script>
 </head>
 <body>
 <div id="mobile-nav">
@@ -114,7 +117,7 @@
                 <p class="artikel-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur autem earum
                     maxime molestias necessitatibus nostrum, porro ratione recusandae tempora voluptas!</p>
                 <div class="article-actions">
-                    <a class="button">Haben Will!</a>
+                    <a class="button" onclick="article_add(1)">Haben Will!</a>
                 </div>
                 <a class="button-tertiary">Andere Optionen</a>
             </div>
