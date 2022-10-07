@@ -119,7 +119,7 @@
                 <div class="article-actions">
                     <a class="button" onclick="article_add(1)">Haben Will!</a>
                 </div>
-                <a class="button-tertiary">Andere Optionen</a>
+                <a class="button-tertiary" href="#duwollenkaufen">Andere Optionen</a>
             </div>
         </div>
 
@@ -203,6 +203,12 @@
                     <p class="sterne"></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis id ipsam maxime porro quam, repellat.</p>
                 </div>
+            </div>
+        </div>
+        <div class="text-area">
+            <textarea></textarea>
+            <div>
+                
             </div>
         </div>
     </section>

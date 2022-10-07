@@ -301,8 +301,8 @@ $col-primary: #343434;
   }
 
   .toast-progress {
-    background: $col-primary;
-    height: 2px;
+    background: linear-gradient(to bottom right, utils.pastellize(utils.$col-primary, 20), utils.pastellize(utils.$col-secondary, 10));
+    height: 5px;
   }
 }
 

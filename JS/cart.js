@@ -11,7 +11,7 @@ function article_add (id) {
             }
         ],
         autoClose: {
-            enabled: false
+            delay: 10000
         }
     })
 }
