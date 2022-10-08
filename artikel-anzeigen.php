@@ -19,6 +19,7 @@
     <script src="JS/artikel-anzeigen.js"></script>
     <script src="node_modules/untoasted/js/minified/toasted.min.js"></script>
     <script src="JS/cart.js"></script>
+    <script src="JS/rating.js"></script>
 </head>
 <body>
 <div id="mobile-nav">
@@ -124,7 +125,7 @@
         </div>
 
     </section>
-    <section id="duwollenkaufen">
+    <section id="duwollenkaufen" data-offset="300">
         <h2>Du wollen Kaufen??</h2>
         <div class="kauf-optionen">
             <div class="kauf-option">
@@ -206,9 +207,13 @@
             </div>
         </div>
         <div class="text-area">
-            <textarea></textarea>
+            <textarea placeholder="Dein unnötiges Kommentar"></textarea>
             <div>
-                
+                <div class="thumb-rating">
+                    <i class="bi bi-hand-thumbs-up thumb thumb-up" data-rating="1"></i>
+                    <i class="bi bi-hand-thumbs-down thumb thumb-down" data-rating="-1"></i>
+                </div>
+                <a class="button">Überleg nochmal!</a>
             </div>
         </div>
     </section>

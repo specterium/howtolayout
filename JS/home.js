@@ -30,7 +30,10 @@ $(function () {
 
         var target = this.hash,
             $target = $(target);
-
+        let extra = document.querySelector(target).dataset.offset || 150;
+        if (window.innerWidth < 768) {
+            extra = document.querySelector(target).dataset.offsetMobile || extra;
+        }
         $("html, body")
             .stop()
             .animate(
