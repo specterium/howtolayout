@@ -123,6 +123,9 @@ body {
   padding: .25em .75em;
   display: inline-block;
   border: none;
+  &.danger {
+    background: rgb(255, 37, 58);
+  }
   &:hover {
     background-color: #f3f3f3;
     color: #343434;

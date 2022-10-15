@@ -1,4 +1,4 @@
-function article_add (id) {
+function article_add(id) {
     untoasted({
         title: "sheeesh",
         content: "artikel wurde in den wrenkorb ge-yeeeted",
@@ -13,5 +13,5 @@ function article_add (id) {
         autoClose: {
             delay: 10000
         }
-    })
+    });
 }
