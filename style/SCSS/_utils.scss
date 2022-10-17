@@ -3,7 +3,7 @@ $bp-desktop: 1200px;
 $col-primary: #0091dc;
 $col-secondary: #a46af1;
 $col-grey: #787878;
-$width: min(85%, 80rem);
+$width: min(90%, 80rem);
 $colors: ("primary": $col-primary, "secondary": $col-secondary, "grey": $col-grey);
 
 @each $name, $hex in $colors {

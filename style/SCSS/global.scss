@@ -124,7 +124,13 @@ body {
   display: inline-block;
   border: none;
   &.danger {
-    background: rgb(255, 37, 58);
+    background: transparent;
+    border: 1px solid #ff253a;
+    color: #ff253a;
+    &:hover {
+      background: #ff253a;
+      color: #f3f3f3;
+    }
   }
   &:hover {
     background-color: #f3f3f3;

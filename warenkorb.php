@@ -104,14 +104,45 @@
         <div class="cart">
             <div class="cart-article">
                 <div>
-                    <h3>artikel name</h3>
                     <img src="https://loremflickr.com/360/360">
-                    <p>menge<span id="count">JA!</span></p>
                 </div>
-                <button class="button danger">nee, doch nicht</button>
+                <div class="information">
+                    <h3><a>artikel name</a></h3>
+                    <p>verkäufer</p>
+                    <p>hinzugefügt am</p>
+                    <p>menge<span id="count">JA!</span></p>
+                    <p>einzelpreis | gesamt</p>
+                    <button class="button danger"><span class="material-symbols-outlined">delete</span></button>
+                </div>
+            </div>
+            <div class="cart-article">
+                <div>
+                    <img src="https://loremflickr.com/360/360">
+                </div>
+                <div class="information">
+                    <h3><a>artikel name</a></h3>
+                    <p>verkäufer</p>
+                    <p>hinzugefügt am</p>
+                    <p>menge<span id="count">JA!</span></p>
+                    <p>einzelpreis | gesamt</p>
+                    <button class="button danger"><span class="material-symbols-outlined">delete</span></button>
+                </div>
+            </div>
+            <div class="cart-article">
+                <div>
+                    <img src="https://loremflickr.com/360/360">
+                </div>
+                <div class="information">
+                    <h3><a>artikel name</a></h3>
+                    <p>verkäufer</p>
+                    <p>hinzugefügt am</p>
+                    <p>menge<span id="count">JA!</span></p>
+                    <p>einzelpreis | gesamt</p>
+                    <button class="button danger"><span class="material-symbols-outlined">delete</span></button>
+                </div>
             </div>
         </div>
-        <button class="butz button">Take my money!</button>
+        <button class="button">Take my money!</button>
     </section>
 </main>
 </body>
