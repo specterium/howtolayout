@@ -107,11 +107,13 @@
                     <img src="https://loremflickr.com/360/360">
                 </div>
                 <div class="information">
-                    <h3><a>artikel name</a></h3>
-                    <p>verkäufer</p>
-                    <p>hinzugefügt am</p>
-                    <p>menge<span id="count">JA!</span></p>
-                    <p>einzelpreis | gesamt</p>
+                    <div>
+                        <h3><a>artikel name</a></h3>
+                        <p>verkäufer</p>
+                        <p>hinzugefügt am</p>
+                        <p>menge<span id="count">JA!</span></p>
+                        <p>einzelpreis | gesamt</p>
+                    </div>
                     <button class="button danger"><span class="material-symbols-outlined">delete</span></button>
                 </div>
             </div>
@@ -120,11 +122,13 @@
                     <img src="https://loremflickr.com/360/360">
                 </div>
                 <div class="information">
-                    <h3><a>artikel name</a></h3>
-                    <p>verkäufer</p>
-                    <p>hinzugefügt am</p>
-                    <p>menge<span id="count">JA!</span></p>
-                    <p>einzelpreis | gesamt</p>
+                    <div>
+                        <h3><a>artikel name</a></h3>
+                        <p>verkäufer</p>
+                        <p>hinzugefügt am</p>
+                        <p>menge<span id="count">JA!</span></p>
+                        <p>einzelpreis | gesamt</p>
+                    </div>
                     <button class="button danger"><span class="material-symbols-outlined">delete</span></button>
                 </div>
             </div>
@@ -133,16 +137,25 @@
                     <img src="https://loremflickr.com/360/360">
                 </div>
                 <div class="information">
-                    <h3><a>artikel name</a></h3>
-                    <p>verkäufer</p>
-                    <p>hinzugefügt am</p>
-                    <p>menge<span id="count">JA!</span></p>
-                    <p>einzelpreis | gesamt</p>
+                    <div>
+                        <h3><a>artikel name</a></h3>
+                        <p>verkäufer</p>
+                        <p>hinzugefügt am</p>
+                        <p>menge<span id="count">JA!</span></p>
+                        <p>einzelpreis | gesamt</p>
+                    </div>
                     <button class="button danger"><span class="material-symbols-outlined">delete</span></button>
                 </div>
             </div>
+            <div class="total">
+                <p>TOTAL</p>
+                <h3>584.548.624.755,99</h3>
+                <p>Summe<span>JA!</span></p>
+                <p>steuern<span>JA!</span></p>
+            </div>
+            <button class="button">Take my money!</button>
         </div>
-        <button class="button">Take my money!</button>
+
     </section>
 </main>
 </body>
