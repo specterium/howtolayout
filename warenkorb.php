@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style/CSS/global.min.css">
@@ -101,61 +102,121 @@
     <section>
         <h1>Warenkorb</h1>
         <p>Du bist dir sicher das du DAS kaufen willst???????</p>
-        <div class="cart">
-            <div class="cart-article">
-                <div>
-                    <img src="https://loremflickr.com/360/360">
-                </div>
-                <div class="information">
+        <div class="cart-container">
+            <div class="cart">
+                <div class="cart-article">
                     <div>
-                        <h3><a>artikel name</a></h3>
-                        <p>verkäufer</p>
-                        <p>hinzugefügt am</p>
-                        <p>menge<span id="count">JA!</span></p>
-                        <p>einzelpreis | gesamt</p>
+                        <img src="https://loremflickr.com/360/360">
                     </div>
-                    <button class="button danger"><span class="material-symbols-outlined">delete</span></button>
+                    <div class="information">
+                        <div>
+                            <h3><a>artikel name</a></h3>
+                            <p>verkäufer</p>
+                            <p>hinzugefügt am</p>
+                            <p>menge<span id="count">JA!</span></p>
+                            <p>einzelpreis | gesamt</p>
+                        </div>
+                        <div>
+                            <button class="button danger">Entfernen</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="cart-article">
-                <div>
-                    <img src="https://loremflickr.com/360/360">
-                </div>
-                <div class="information">
+                <div class="cart-article">
                     <div>
-                        <h3><a>artikel name</a></h3>
-                        <p>verkäufer</p>
-                        <p>hinzugefügt am</p>
-                        <p>menge<span id="count">JA!</span></p>
-                        <p>einzelpreis | gesamt</p>
+                        <img src="https://loremflickr.com/360/360">
                     </div>
-                    <button class="button danger"><span class="material-symbols-outlined">delete</span></button>
+                    <div class="information">
+                        <div>
+                            <h3><a>artikel name</a></h3>
+                            <p>verkäufer</p>
+                            <p>hinzugefügt am</p>
+                            <p>menge<span id="count">JA!</span></p>
+                            <p>einzelpreis | gesamt</p>
+                        </div>
+                        <div>
+                            <button class="button danger">Entfernen</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="cart-article">
-                <div>
-                    <img src="https://loremflickr.com/360/360">
-                </div>
-                <div class="information">
+                <div class="cart-article">
                     <div>
-                        <h3><a>artikel name</a></h3>
-                        <p>verkäufer</p>
-                        <p>hinzugefügt am</p>
-                        <p>menge<span id="count">JA!</span></p>
-                        <p>einzelpreis | gesamt</p>
+                        <img src="https://loremflickr.com/360/360">
                     </div>
-                    <button class="button danger"><span class="material-symbols-outlined">delete</span></button>
+                    <div class="information">
+                        <div>
+                            <h3><a>artikel name</a></h3>
+                            <p>verkäufer</p>
+                            <p>hinzugefügt am</p>
+                            <p>menge<span id="count">JA!</span></p>
+                            <p>einzelpreis | gesamt</p>
+                        </div>
+                        <div>
+                            <button class="button danger">Entfernen</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-article">
+                    <div>
+                        <img src="https://loremflickr.com/360/360">
+                    </div>
+                    <div class="information">
+                        <div>
+                            <h3><a>artikel name</a></h3>
+                            <p>verkäufer</p>
+                            <p>hinzugefügt am</p>
+                            <p>menge<span id="count">JA!</span></p>
+                            <p>einzelpreis | gesamt</p>
+                        </div>
+                        <div>
+                            <button class="button danger">Entfernen</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-article">
+                    <div>
+                        <img src="https://loremflickr.com/360/360">
+                    </div>
+                    <div class="information">
+                        <div>
+                            <h3><a>artikel name</a></h3>
+                            <p>verkäufer</p>
+                            <p>hinzugefügt am</p>
+                            <p>menge<span id="count">JA!</span></p>
+                            <p>einzelpreis | gesamt</p>
+                        </div>
+                        <div>
+                            <button class="button danger">Entfernen</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-article">
+                    <div>
+                        <img src="https://loremflickr.com/360/360">
+                    </div>
+                    <div class="information">
+                        <div>
+                            <h3><a>artikel name</a></h3>
+                            <p>verkäufer</p>
+                            <p>hinzugefügt am</p>
+                            <p>menge<span id="count">JA!</span></p>
+                            <p>einzelpreis | gesamt</p>
+                        </div>
+                        <div>
+                            <button class="button danger">Entfernen</button>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="total">
-                <p>TOTAL</p>
-                <h3>584.548.624.755,99</h3>
-                <p>Summe<span>JA!</span></p>
-                <p>steuern<span>JA!</span></p>
+                <div>
+                    <p>TOTAL</p>
+                    <h3>584.548.624.755,99</h3>
+                    <p>Summe<span>JA!</span></p>
+                    <p>steuern<span>JA!</span></p>
+                </div>
+                <button class="button">Take my money!</button>
             </div>
-            <button class="button">Take my money!</button>
         </div>
-
     </section>
 </main>
 </body>
